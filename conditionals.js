@@ -1,5 +1,5 @@
-const raining = true 
-const cold = false
+const raining = false 
+const cold = true
 
 if (raining) {
   console.log("Don't forget your umbrella!")
@@ -29,3 +29,24 @@ else if (temperature < 15) {
 else {
   console.log("Short sleeves are fine.")
 }
+
+// && and 
+// || or 
+// ! not
+
+const isCitizen = true 
+const age = 26
+
+if (isCitizen && age > 18) {
+  console.log("You are elegible to vote")
+}
+
+if (temperature < -40 && temprature > 40) {
+  console.log("Maybe going outside is not a great idea")
+}
+
+if (!raining) {
+  console.log("Leave you umbrella at home")
+} 
+
+
