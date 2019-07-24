@@ -29,11 +29,3 @@ else if (temperature < 15) {
 else {
   console.log("Short sleeves are fine.")
 }
-
-<<<<<<< HEAD:conditionals.js
-console.log("You're ready to go outisde!")
-=======
-//default case to a switch statement and it will be 
-//executed when none of the values 
-//match the value of the switch expression.
->>>>>>> 455a72ee150674d3c2af9bb7ec44f4e45ec091fb:conditionals2.js
