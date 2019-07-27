@@ -117,3 +117,18 @@ for (x = 0; x <= 25; ++x) {
     console.log(x + "-" + y)
   }
 }
+
+for (n = 100; n <= 200; n += 1) {
+  if(n % 3 === 0 && n % 4 === 0) {
+    console.log("LoopyLighthouse")
+  }
+  else if (n % 3 === 0) {
+    console.log("Loopy")
+  }
+  else if (n % 4 === 0) {
+    console.log("Lighthouse")
+  }
+  else {
+    console.log(n)
+  }
+}
